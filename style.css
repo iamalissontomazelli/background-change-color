@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open sans";
+}
+.laranja {
+  background-color: rgb(243, 173, 43);
+  transition: all 0.25s ease-in-out;
+}
+.vermelho {
+  background-color: rgb(175, 40, 40);
+  transition: all 0.25s ease-in-out;
+}
+.porpura {
+  background-color: rgb(109, 29, 109);
+  transition: all 0.25s ease-in-out;
+}
+button {
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0 10px;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 90vh;
+}
